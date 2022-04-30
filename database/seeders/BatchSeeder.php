@@ -94,6 +94,7 @@ class BatchSeeder extends Seeder
             ['classroom_id' => 6, 'batch_id' => 16],
             ['classroom_id' => 6, 'batch_id' => 17],
             ['classroom_id' => 6, 'batch_id' => 18],
+        ];
 
         ClassroomBatch::insert($data);
     }
